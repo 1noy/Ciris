@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f; /* Couleur de fond noir */
+    color: #00ff00; /* Texte vert */
+}
+
+header {
+    background-color: #003300; /* Vert foncé */
+    color: #00ff00; /* Texte vert */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.title {
+    font-size: 24px; /* Taille du titre réduite */
+    margin-left: 10px; /* Décalage vers la gauche */
+}
+
+main {
+    padding: 20px;
+}
+
+#login {
+    text-align: center;
+}
+
+#user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#new-message {
+    margin-top: 20px;
+}
+
+#message-content {
+    width: 100%;
+    height: 100px;
+    background-color: #0f0f0f; /* Fond noir */
+    color: #00ff00; /* Texte vert */
+    border: 1px solid #00ff00; /* Bordure verte */
+}
+
+button {
+    background-color: #003300; /* Vert foncé */
+    color: #00ff00; /* Texte vert */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#messages .message {
+    background-color: #0f0f0f; /* Fond noir */
+    color: #00ff00; /* Texte vert */
+    border: 1px solid #00ff00; /* Bordure verte */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.message.left {
+    text-align: left;
+}
+
+.message.right {
+    text-align: right;
+}

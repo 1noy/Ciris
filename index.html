@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciris</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="SHELBY Logo" class="logo">
+        <h1 class="title">Ciris</h1>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Connexion</h2>
+            <input type="text" id="username" placeholder="Nom d'utilisateur">
+            <button onclick="login()">Se connecter</button>
+        </section>
+        <section id="messaging" style="display: none;">
+            <div id="user-info">
+                <span id="current-user"></span>
+                <button onclick="logout()">Se déconnecter</button>
+            </div>
+            <section id="messages">
+                <!-- Les messages apparaîtront ici -->
+            </section>
+            <section id="new-message">
+                <textarea id="message-content" placeholder="Tapez votre message..."></textarea>
+                <button onclick="sendMessage()">Envoyer</button>
+            </section>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
